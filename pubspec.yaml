@@ -1,0 +1,183 @@
+name: works_on
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # lets_travel:
+  #   path: ./lets_travel
+  # shoe_appp:
+  #   path: ./shoe_appp
+  # single_page:
+  #   path: ./single_page
+  # world_travel:
+  #   path: ./world_travel
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
+  salomon_bottom_bar: ^3.3.2
+  flutter_svg: ^2.0.10+1
+  smooth_page_indicator: ^1.2.0+3
+
+  go_router: ^14.3.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/images/Ellipse 1 (1).svg
+    - lib/assets/images/Ellipse 1.png
+    - lib/assets/images/notification 1.svg
+    - lib/assets/images/shape.svg
+    - lib/assets/images/Rectangle 9.png
+    - lib/assets/images/favorite 1.svg
+    - lib/assets/images/home 1.svg
+    - lib/assets/images/Vector (1).svg
+    - lib/assets/images/Vector (2).svg
+    - lib/assets/images/Vector.svg
+    
+
+
+    - lib/assets/images/hamburger menu.svg
+    - lib/assets/images/Search icon.svg
+    - lib/assets/images/Shape.svg
+    - lib/assets/images/Shapes.png
+    - lib/assets/images/Shape.png
+    - lib/assets/images/Subtract.svg
+    - lib/assets/images/Frame 25.svg
+    - lib/assets/images/Frame 28.svg
+    - lib/assets/images/Notification.svg
+    - lib/assets/images/Frame 40.svg
+    - lib/assets/images/placeholder.png
+    - lib/assets/images/placeholder (1).png
+    - lib/assets/images/placeholder (2).png
+    - lib/assets/images/placeholder (3).png
+    - lib/assets/images/Group (2).svg
+    - lib/assets/images/Vector (6).svg
+    - lib/assets/images/Cover.png
+    - lib/assets/images/Shapes.svg
+    - lib/assets/images/loaction Icon.svg
+    - lib/assets/images/Bitmap.png
+    - lib/assets/images/Pasted image (2).png
+    - lib/assets/images/Star.svg
+    - lib/assets/images/Star Copy 5.svg
+    - lib/assets/images/Star Copy 6.svg
+
+    - lib/assets/images/cartIcon.svg
+    - lib/assets/images/MagnifyingGlass.svg
+    - lib/assets/images/menu.svg
+    - lib/assets/images/plus.svg
+    - lib/assets/images/unsplash_g3CMh2nqj_w.png
+    - lib/assets/images/unsplash_kP6knT7tjn4.png
+    - lib/assets/images/Vector (5).svg
+    - lib/assets/images/unsplash_kP6knT7tjn4 (1).png
+    - lib/assets/images/House.svg
+    - lib/assets/images/MagnifyingGlass (1).svg
+    - lib/assets/images/Vector (8).svg
+    - lib/assets/images/UserCircle.svg
+    - lib/assets/images/Heart.svg
+
+    - lib/assets/images/Frame 1.svg
+    - lib/assets/images/Frame 2.svg
+    - lib/assets/images/Saly-1.png
+    - lib/assets/images/Frame 4.svg
+    - lib/assets/images/Saly-44.png
+    - lib/assets/images/Saly-3.png
+    - lib/assets/images/Saly-1.svg
+    - lib/assets/images/Saly-12.png
+    - lib/assets/images/Vector (3).svg
+    - lib/assets/images/Group.svg
+    - lib/assets/images/Line 3.svg
+    - lib/assets/images/fa6-brands_square-x-twitter.svg
+    - lib/assets/images/flat-color-icons_google.svg
+    - lib/assets/images/logos_facebook.svg
+    - lib/assets/images/Vector (4).svg
+    - lib/assets/images/Group (1).svg
+    - lib/assets/images/Line 1.svg
+    - lib/assets/images/Saly-11.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+
+
+
