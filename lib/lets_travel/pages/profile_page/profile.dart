@@ -317,7 +317,7 @@ class Profile extends StatelessWidget {
                     ),
                     Spacer(),
                     Container(
-                      height: 36.h,
+                      height: 370.h,
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: const Color(0xFFFFFFFF),

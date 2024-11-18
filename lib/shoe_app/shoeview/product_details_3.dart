@@ -240,33 +240,31 @@ class ProductDetails3 extends StatelessWidget {
                             ],
                           ),
                           SizedBox(height: 28.h),
-                          Expanded(
-                            child: Container(
-                              height: 61.h,
-                              width: double.infinity,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(15),
-                                color: Colors.black,
-                              ),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    'Buy now',
-                                    style: GoogleFonts.poppins(
-                                        color: Colors.white,
-                                        fontSize: 31.sp,
-                                        fontWeight: FontWeight.w600),
-                                  ),
-                                  SizedBox(width: 13.sp),
-                                  SvgPicture.asset(
-                                    'lib/assets/images/cartIcon.svg',
-                                    width: 32.w,
-                                    height: 32.h,
-                                    color: Colors.white,
-                                  )
-                                ],
-                              ),
+                          Container(
+                            height: 61.h,
+                            width: double.infinity,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                              color: Colors.black,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  'Buy now',
+                                  style: GoogleFonts.poppins(
+                                      color: Colors.white,
+                                      fontSize: 31.sp,
+                                      fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(width: 13.sp),
+                                SvgPicture.asset(
+                                  'lib/assets/images/cartIcon.svg',
+                                  width: 32.w,
+                                  height: 32.h,
+                                  color: Colors.white,
+                                )
+                              ],
                             ),
                           )
                         ],
